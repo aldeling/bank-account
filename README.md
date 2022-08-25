@@ -1,9 +1,11 @@
 ### Tests
-Describes: accountInput
+Describes: accountInput()
 
-Test:
+Test: "It should return not valid when nothing is inputed"
 Code:
-Expected Output:
+const number = ""
+accountInput(number)
+Expected Output: "This is not a valid input"
 
 Test:
 Code:
