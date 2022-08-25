@@ -4,6 +4,13 @@ function AccountInfo() {
   this.deposit = deposit
   this.withdraw = withdraw
 }
+
+function accountInput(number) {
+  if (number.length === 0) {
+    return "This is not a valid input";
+  }
+  return number;
+}
 // UI Logic
 function handleFormSubmisson(event) {
   event.preventDefault();
