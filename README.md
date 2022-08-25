@@ -13,6 +13,12 @@ const number = "a"
 accountInput(number)
 Expected Output: "This is not a valid input"
 
+Test: "It should return string when a number is in the input"
+Code:
+const number = "1"
+account(number)
+Expected Output: "1"
+
 Test:
 Code:
 Expected Output:
