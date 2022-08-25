@@ -16,7 +16,13 @@ Expected Output: "This is not a valid input"
 Test: "It should return string when a number is in the input"
 Code:
 const number = "1"
-account(number)
+accountInput(number)
+Expected Output: "1"
+
+Test: "It should trim extra spaces on string"
+Code:
+const number = " 1 "
+accountInput(number)
 Expected Output: "1"
 
 Test:
